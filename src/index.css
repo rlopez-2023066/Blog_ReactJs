@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+button {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px 20px;
+  line-height: 24px;
+  gap: 8px;
+  border-radius: 24px;
+  outline: none;
+  border: none;
+  background: #01f32d;
+  transition: all 0.3s ease;
+  color: #000000;
+  
+}
+
+button:hover {
+  background: #037b67;
+}
+
+body{
+  background-color: #000000;
+}
